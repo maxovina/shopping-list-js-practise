@@ -5,7 +5,6 @@ const addButton = document.querySelector('button');
 addButton.addEventListener('click', function () {
     let newItem = listInput.value;
     listInput.value = "";
-    console.log(newItem);
     let li = document.createElement('li');
     let span = document.createElement('span');
     let button = document.createElement('button');
